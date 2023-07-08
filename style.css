@@ -1,0 +1,49 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.text-primary{
+    color: #fd6e0a;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    margin-right: 20px;  
+    list-style: none; 
+}
+
+nav li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #444343;
+}
+
+.logo-title{
+    font-weight: 800;
+    font-size: 30px;
+    align-items: center;
+}
+
+button{
+    background-color: #fd6e0a;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
