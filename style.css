@@ -7,12 +7,16 @@
     color: #fd6e0a;
 }
 
+.button-primary{
+    background-color: #fd6e0a; 
+}
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: burlywood;
+    margin: 0 200px;
 }
 
+/*-----------nav-------Start---------*/
 nav > ul{
     display: flex;
     align-items: center;
@@ -37,7 +41,6 @@ nav li a{
 }
 
 button{
-    background-color: #fd6e0a;
     padding: 10px 15px;
     color: aliceblue;
     font-weight: 600;
@@ -45,5 +48,21 @@ button{
     border: 0;
     border-radius: 5px;
 }
+/*-----------nav-------End---------*/
+.header{
+    background-color: #faeade;
+}
+
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pictur{
+    width: 500px;
+}
+
+
 
 
