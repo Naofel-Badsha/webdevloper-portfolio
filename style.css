@@ -100,6 +100,9 @@ main{
     margin: auto;
 }
 
+main > section{
+    margin-top: 60px;
+}
 
 /*-----------About-----------Start------------*/
 .about{
@@ -109,7 +112,7 @@ main{
     margin: 130px 0;
 }
 
-.about-title{
+.section-title{
     text-align: center;
     font-size: 35px;
     font-weight: 600;
@@ -157,6 +160,11 @@ main{
 .skill{
     background-color: #fbf0f0;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.skill:hover{
+    box-shadow: 0px 6px 10px 0px limegreen;
 }
 
 .skill img{
@@ -174,8 +182,56 @@ main{
     text-align: center;
     color: #444343;
     font-weight: 500;
+    padding-bottom: 5px;
 }
 /*-----------Skill-----------End-----------*/
+
+
+
+/*-----------Resumi-----------Start-----------*/
+.resume-container{
+    display: flex;
+    gap: 10px;
+}
+
+.resume-collum:nth-child(1){
+    border-right: 2px solid green;
+    padding: 3px;
+}
+.resume-collum-title{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fd6e0a;
+}
+
+.resume-item{
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.resume-item:hover{
+    background-color: #e0eefa;
+}
+
+.resume-item-title{
+    font-size: 20px;
+    font-size: 600;
+    color: #181818;
+}
+
+.resume-item-institute{
+    font-size: 18px;
+    color: #444343;
+}
+
+.resume-item-description{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+/*-----------Resumi-----------End-----------*/
 
 
 
