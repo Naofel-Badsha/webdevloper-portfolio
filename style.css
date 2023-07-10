@@ -256,6 +256,10 @@ footer{
     padding: 130px 200px;
 }
 
+.social-links img{
+   margin: 0 10px;
+}
+
 form{
     background-color: #e0eefa;
     padding: 20px;
@@ -278,6 +282,17 @@ form > label > input{
 form > textarea{
     width: 100%;
     padding-right: 20px;
+}
+
+.submit{
+    border: none; 
+    background-color:#fd6e0a; 
+    padding: 10px 15px;
+    color: #fff; 
+    font-weight: 600; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
 }
 /*-----------Footer-----------End-----------*/
 
